@@ -28,7 +28,7 @@ function  lastChild_tag  ( create_a_new_tag_element , className_tag ){
 
     tag_Selector.forEach(ele =>{
 
-        //ele.innerHtml.includes("More") ? ele.className = className_tag :null
+        //ele.innerHtml.includes("More") ? ele.className = className_tag :null  более простой и удобный вариант 
         
         if (ele.innerHTML.includes("More")) {
 
