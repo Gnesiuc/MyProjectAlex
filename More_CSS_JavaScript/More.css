@@ -1,0 +1,71 @@
+.login-page {
+    width: 360px;
+    padding: 8% 0 0 ;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    max-width: 360;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 black, 0 5px 5px 0 black;
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background-color: white;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: greenyellow;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: aliceblue;
+    font-size: 14px;
+    transition: all 0.3 ease;
+    cursor: pointer;
+
+}
+
+.form button:hover,.form button:active,.form button:focus {
+    background-color: rgb(37, 21, 184);
+}
+
+.form.message {
+    color: 15px 0 0;
+    color: rgb(205, 197, 197);
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.form .message a{
+    color: rgb(34, 205, 34);
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.form .register-form {
+    display: none;
+}
+
+body {
+    background-color: rgb(81, 131, 7);
+}
