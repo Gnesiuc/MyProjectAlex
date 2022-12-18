@@ -1,66 +1,58 @@
 body {
+    background-color: rgb(69, 0, 66);
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_card{
+    margin-top: 100px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    width: 1300px;
+    height: 400px;
+    background-color: rgb(138, 0, 0);
+    border-radius: 20px;
+    border: 1px solid rgb(78, 78, 78);
+    transition: all 1s ease ;
+}
+.card img {
+    max-width: 100%;
+    height: 400px;
+    margin-left: 50px;
+    transition: all 1s ease;
+}
+
+/* title card info structure */
+.info_card{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(58, 14, 47);
-}
-
-.container {
-    display: flex;
-    align-items:center;
-    justify-content: center;
-}
-
-.card-conteiner{
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 1300px;
-    height: 380px;
-    margin-left: 20px;
-    margin: 0 35px;
-    margin-top: 80px;
-    background-color: rgb(133, 10, 10);
-    overflow: hidden;
-}
-
-.img_scale {
-    width: 280px;
-    height: 380px;
-    margin-left: 50px;
-
-}
-
-.name_shoes {
-    margin-top: -280px;
-    margin-left: 750px;
     color: white;
-    font-size: 2.5rem;
-    margin-left: 52%;
+}
+.info_card h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.info_card p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 0 100px 0 100px;
+    font-family: 'Lobster', cursive;
 }
 
-.info_scale {
-    margin-top: 1.2%;
-width: 550px;
-height: 200px;
-text-align: center;
-margin-left: 38%;
-color: white;
-font-size: 1.2rem;
-
-}
-
-.card-conteiner:hover {
-    cursor: pointer;
-    border-radius: 0 200px 0 200px ;
-    transition: 1s;
-
-    
-}
-
-.card-conteiner:hover .img_scale{
+/* animatie img */
+.container_card:hover img {
     transform: scale(1.1);
-    transition: 1s;
-    
+}
+
+.container_card:hover .card{
+    border-radius: 10px 190px 10px 190px;
 }
